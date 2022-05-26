@@ -461,7 +461,7 @@ left join
 		AND programs.program_kind NOT IN (7)
 	group by users.id
 )as t_min
-on first_user_id=user_id
+on first_user_id=user_id 
 union all
 select * 
 from
