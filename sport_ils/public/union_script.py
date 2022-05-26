@@ -463,7 +463,7 @@ left join
 )as t_min
 on first_user_id=user_id
 union all
-select *
+select * 
 from
 (
 	   SELECT   
